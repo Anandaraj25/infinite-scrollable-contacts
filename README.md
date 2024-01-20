@@ -4,11 +4,13 @@ This project implements an infinite scrollable contacts list using jQuery. It dy
 
 ## Screenshots 📸
 
-![Infinite Scrollable Contacts](screenshots/screenshot.png)
 *Initial Contacts*
 
-![Scrolling](screenshots/screenshot-scrolling.png)
+![Infinite Scrollable Contacts](screenshots/screenshot.png)
+
 *Scrolling to Load More Contacts*
+
+![Scrolling](screenshots/screenshot-scrolling.png)
 
 ## Project Structure 🏗️
 
