@@ -46,7 +46,7 @@ You can customize the behavior of the contact list by modifying the options in t
 $(document).ready(function () {
     $("#contacts").infiniteScrollContacts({
         totalContacts: 100,
-        contactid: 10
+        contactid: 1
     });
 });
 ```
