@@ -1,0 +1,24 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Include your custom script.js file -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Container for the contacts list -->
+    <div id="contacts">
+    </div>
+    <!-- Script to initialize the contacts list using the 'infiniteScrollContacts' jQuery plugin -->
+    <script>
+        $(document).ready(function () {
+            // Initialize the 'infiniteScrollContacts' plugin with options
+            $("#contacts").infiniteScrollContacts({totalContacts: 100, contactid: 1});
+        });
+    </script>
+</body>
+</html>
